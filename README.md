@@ -58,3 +58,6 @@ and ```source ~/.bashrc```
 now you can send file in your telegram group what named is "files" (create group "files", if not)
 ```
 sf filename.mp4
+```
+NOTE: Press tab button then start shis first - telegram asked your phone number and auth code from telegram. 
+
