@@ -3,7 +3,7 @@ FROM debian:buster
 
 
 RUN apt-get update && \
-apt-get install -y git libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev \ 
+apt-get install -y git libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev  \
 libevent-dev libjansson-dev libpython-dev make zlib1g-dev libgcrypt-dev && \
 git clone --recursive https://github.com/vysheng/tg.git && \
 cd tg && \
